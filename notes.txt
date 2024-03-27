@@ -1,0 +1,21 @@
+in the interest of not spamming lego's website, can I
+just use the raw html file that I downloaded in its place?
+YES YOU CAN: Make sure you download the webpage's HTML, NOT THE HTML
+FROM THE 'view-source-page' PAGE!!
+
+might be time to start git-iffing my project and breaking the program into
+serperate functions and classes so I can have a 'working' version of the program
+and a testing environment. Also would like to start Agile-ing the project too
+
+John notes:
+build a pipeline
+    send from repo to online place (like AWS) automatically so that I don't have
+    to manually compile code
+push to an online place
+trunk based dev
+kanban board w/ user stories
+
+how Lego.com formats it's set price in html:
+# get the price of the Lego set from Lego.com
+# <meta property="product:price:amount" content="49.99"/>
+# prices = soup.find_all("meta", property='product:price:amount')
