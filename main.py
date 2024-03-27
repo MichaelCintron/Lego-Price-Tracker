@@ -41,6 +41,7 @@ def get_set_price(webpage_html, from_online=True):
 
 # html_source = 'https://www.lego.com/en-us/product/71476'
 # test_response = get_set_price(html_source)
-# html_source = '/home/michaelc/PycharmProjects/Lego_Prices/HTML_Docs/cat_owl_html_source.html'
+# html_source = 'HTML_Docs/cat_owl_html_source.html'
 # test_response = get_set_price(html_source, from_online=False)
+
 # print(test_response, type(test_response))
