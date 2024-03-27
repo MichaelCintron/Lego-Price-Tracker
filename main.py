@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 
 def get_set_price(webpage_html, from_online=True):
-    '''
+    """
     Give a Lego set's URL (or downloaded local file version of webpage), return the price of
     that set
 
@@ -12,7 +12,7 @@ def get_set_price(webpage_html, from_online=True):
         copy of the Lego set's page (if local file, set <from_online=False>).
     :param from_online: True by default, only change to False if webpage_html points to local file.
     :return: Price of the Lego set in the decimal data type.
-    '''
+    """
 
     # get the HTML from the URL or local file and send it into Beautiful Soup
     if from_online:
@@ -37,11 +37,3 @@ def get_set_price(webpage_html, from_online=True):
     price_decimal = Decimal(price)
 
     return price_decimal
-
-
-# html_source = 'https://www.lego.com/en-us/product/71476'
-# test_response = get_set_price(html_source)
-# html_source = 'HTML_Docs/cat_owl_html_source.html'
-# test_response = get_set_price(html_source, from_online=False)
-
-# print(test_response, type(test_response))

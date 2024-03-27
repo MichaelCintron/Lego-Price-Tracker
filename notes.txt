@@ -3,10 +3,6 @@ just use the raw html file that I downloaded in its place?
 YES YOU CAN: Make sure you download the webpage's HTML, NOT THE HTML
 FROM THE 'view-source-page' PAGE!!
 
-might be time to start git-iffing my project and breaking the program into
-serperate functions and classes so I can have a 'working' version of the program
-and a testing environment. Also would like to start Agile-ing the project too
-
 John notes:
 build a pipeline
     send from repo to online place (like AWS) automatically so that I don't have
@@ -19,3 +15,9 @@ how Lego.com formats it's set price in html:
 # get the price of the Lego set from Lego.com
 # <meta property="product:price:amount" content="49.99"/>
 # prices = soup.find_all("meta", property='product:price:amount')
+
+How should I go about testing the website queries? Lego does not keep a set's info up forever.
+But... they do seem to keep a set's info up for at least a few years after it is retired
+(especially if it not a licensed set)
+
+Do <pip freeze > requirements.txt> to make the requirements.txt doc
