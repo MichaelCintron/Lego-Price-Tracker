@@ -19,3 +19,5 @@ how Lego.com formats it's set price in html:
 # get the price of the Lego set from Lego.com
 # <meta property="product:price:amount" content="49.99"/>
 # prices = soup.find_all("meta", property='product:price:amount')
+
+testing git remote origin stuff
