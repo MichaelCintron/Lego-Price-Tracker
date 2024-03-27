@@ -1,0 +1,5 @@
+# ignore Pycharm files
+/.idea
+
+# HTML test documents
+/HTML_Docs
