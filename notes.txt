@@ -21,3 +21,5 @@ But... they do seem to keep a set's info up for at least a few years after it is
 (especially if it not a licensed set)
 
 Do <pip freeze > requirements.txt> to make the requirements.txt doc
+
+git config remote.origin.url "git@github.com:MichaelCintron/Lego-Price-Tracker.git"
